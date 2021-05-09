@@ -30,10 +30,10 @@ const Calculator = () => {
     const numm =  a / b;
     setStore(numm);
   };
-  // const del=()=>{
-  //   setStore('');
-  //   setNum({num1: "", num2: ""})
-  // }
+  const del=()=>{
+    setStore('');
+    setNum({num1: "", num2: ""})
+  }
 
   return (
     <div>
@@ -86,10 +86,10 @@ const Calculator = () => {
           value={store}
           placeholder="Final result is"
         />
-         {/* <button
+         <button
           className="btn btn-danger "
           onClick={del}
-        >Remove Data</button> */}
+        >Remove Data</button>
       </div>
     </div>
   );
