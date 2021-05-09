@@ -1,0 +1,17 @@
+.modefiyH1{
+   font-size: 6rem;
+   color: rgb(50, 155, 241);
+}
+.numInput{
+    font-size: 20px;
+    padding: 16px;
+    display: block;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+
+.inner{
+    margin-left: 1%;
+}
